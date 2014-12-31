@@ -6,6 +6,8 @@
  * @license MIT
  */
 
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 html {
   font-size: 12px;
 }
@@ -79,4 +81,84 @@ h6,
 small,
 .small {
   font-size: .707em;
+}
+
+.list--unstyled {
+  list-style-type: none;
+}
+
+.list--inline > li {
+  display: inline;
+}
+
+
+
+body {
+  color: #444;
+  font-family: Lato, Helvetica, sans;
+  margin: 0;
+}
+
+footer {
+  background-color: #fafafa;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+a,
+a:visited {
+  color: #3d9970;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  opacity: .9;
+}
+
+.hero {
+  background-color: #fafafa;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.themes-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.themes-list-item {
+  padding: 2rem 0;
+}
+
+.themes-list-item:hover,
+.themes-list-item:focus,
+.themes-list-item:active {
+  background-color: #3d9970;
+  padding: 2rem 0;
+}
+
+.themes-list-item:hover .themes-list-item-title,
+.themes-list-item:focus .themes-list-item-title,
+.themes-list-item:active .themes-list-item-title,
+.themes-list-item:hover .themes-list-item-description,
+.themes-list-item:focus .themes-list-item-description,
+.themes-list-item:active .themes-list-item-description {
+  color: #fff;
+}
+
+.themes-list-link,
+.themes-list-link:visited {
+  color: #444;
+  text-decoration: none;
+}
+
+.themes-list-item-title {
+  margin: 0;
+}
+
+.themes-list-item-description {
+  opacity: .8;
 }

@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "a11y": "^0.2.3",
+    "furtive-lists": "0.0.1",
     "furtive-typescale": "0.0.4",
     "gulp": "^3.8.10",
     "gulp-autoprefixer": "^2.0.0",

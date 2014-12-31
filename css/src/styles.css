@@ -1,1 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 @import 'furtive-typescale';
+@import 'furtive-lists';
+
+:root {
+  --hero-bg: #fafafa;
+  --text-color: #444;
+  --anchor-color: #3d9970;
+  --themes-list-item-bg--hover: #3d9970;
+  --themes-list-item-color--hover: #fff;
+  --font-family: Lato, Helvetica, sans;
+}
+
+body {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  margin: 0;
+}
+
+footer {
+  background-color: var(--hero-bg);
+  padding: 6rem 0;
+  text-align: center;
+}
+
+a,
+a:visited {
+  color: var(--anchor-color);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  opacity: .9;
+}
+
+.hero {
+  background-color: var(--hero-bg);
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.themes-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.themes-list-item {
+  padding: 2rem 0;
+}
+
+.themes-list-item:hover,
+.themes-list-item:focus,
+.themes-list-item:active {
+  background-color: var(--themes-list-item-bg--hover);
+  padding: 2rem 0;
+}
+
+.themes-list-item:hover .themes-list-item-title,
+.themes-list-item:focus .themes-list-item-title,
+.themes-list-item:active .themes-list-item-title,
+.themes-list-item:hover .themes-list-item-description,
+.themes-list-item:focus .themes-list-item-description,
+.themes-list-item:active .themes-list-item-description {
+  color: var(--themes-list-item-color--hover);
+}
+
+.themes-list-link,
+.themes-list-link:visited {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.themes-list-item-title {
+  margin: 0;
+}
+
+.themes-list-item-description {
+  opacity: .8;
+}
