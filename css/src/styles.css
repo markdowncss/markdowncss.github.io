@@ -38,7 +38,7 @@ a:active {
 
 .hero {
   background-color: var(--hero-bg);
-  padding: 3rem 0;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
