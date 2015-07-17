@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "dependencies": {
-    "gulp": "^3.8.10"
-  },
+  "dependencies": {},
   "devDependencies": {
     "a11y": "^0.2.3",
     "furtive-lists": "0.0.1",
